@@ -10,5 +10,8 @@ application.register("alert", AlertController)
 import AutosaveController from "./autosave_controller"
 application.register("autosave", AutosaveController)
 
+import ColorPreviewController from "./color_preview_controller"
+application.register("color-preview", ColorPreviewController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
