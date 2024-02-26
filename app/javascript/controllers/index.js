@@ -27,3 +27,6 @@ application.register("popover", PopoverController)
 
 import SlideoverController from "./slideover_controller"
 application.register("slideover", SlideoverController)
+
+import TabsController from "./tabs_controller"
+application.register("tabs", TabsController)
