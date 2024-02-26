@@ -24,3 +24,6 @@ application.register("modal", ModalController)
 
 import PopoverController from "./popover_controller"
 application.register("popover", PopoverController)
+
+import SlideoverController from "./slideover_controller"
+application.register("slideover", SlideoverController)
