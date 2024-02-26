@@ -21,3 +21,6 @@ application.register("hello", HelloController)
 
 import ModalController from "./modal_controller"
 application.register("modal", ModalController)
+
+import PopoverController from "./popover_controller"
+application.register("popover", PopoverController)
